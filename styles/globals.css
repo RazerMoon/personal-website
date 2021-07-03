@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  a {
+    @apply text-blue-400 hover:text-blue-300 hover:underline;
+  }
+  .heading {
+    @apply font-normal text-base md:text-lg;
+  }
+}
