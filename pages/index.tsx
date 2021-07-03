@@ -12,7 +12,7 @@ export default function Home() {
       style={{
         backgroundImage: `url("https://picsum.photos/1920/1080")`,
       }}
-      className="w-screen h-screen flex justify-center items-center bg-gray-900 text-gray-200 text-sm md:text-base"
+      className="w-screen h-screen flex justify-center items-center bg-no-repeat bg-center bg-cover bg-gray-900 text-gray-200 text-sm md:text-base"
     >
       <Head>
         <title>Homepage</title>
