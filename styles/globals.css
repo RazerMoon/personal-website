@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: "Inter", sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter");
 
 @layer components {
   a {
